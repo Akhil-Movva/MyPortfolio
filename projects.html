@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href ="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
     <nav class="navigation">
         <div class="navigation__brand">My brand name.</div>
         <ul class="list">
-            <li class="list__inline"><a class="link head--link"  href="/index.html">Home</a></li>
-            <li class="list__inline"><a class="link head--link link--active"  href="/">Projects</a></li>
-            <li class="list__inline"><a class="link head--link"  href="/blogs.html">Blogs</a></li>
+            <li class="list__inline"><a class="link head--link" href="/index.html">Home</a></li>
+            <li class="list__inline"><a class="link head--link link--active" href="/">Projects</a></li>
+            <li class="list__inline"><a class="link head--link" href="/blogs.html">Blogs</a></li>
         </ul>
-     </nav>
-     <header class="hero-header" >
-        <img class="projects-img"src="images/projects.svg"/>
+    </nav>
+    <header class="hero-header">
+        <img class="projects-img" src="images/projects.svg" />
         <h1>Projects</h1>
     </header>
     <ul>
-      <div class="container container--center proj">
-         <h1>How well do you know me?</h1>
-         <small>November, 2020</small>
-         <p>It is a simple questionnaire written in Node.js programming language. 
-             This is intended to calculate the degree of knowledge about you of your friends.</p>
-          <a class="link link--primary"href="https://github.com/Akhil-Movva/CLI-App1">Try it</a>
-          <a class="link link--secondary"href="https://repl.it/@Akhil21/Assgmt1QuestionnaireApp-neogcamp-1#index.js">View source</a>    
-      </div>
-      
-      <div class="container container--center proj">
-         <h1>Test your IPL knowledge</h1>
-         <small>November, 2020</small>
-         <p>This is a simple CLI application developed using Node.js. 
-             Testing the knowledge of IPL-13 is the primary objective of building this application.</p>
-          <a class="link link--primary"href="https://github.com/Akhil-Movva/CLI-App2">Try it</a>
-          <a class="link link--secondary"href="https://repl.it/@Akhil21/Assgmt2CLIquizApp-neogcamp-1#index.js">View source</a>    
-      </div>
-      
-    </ul>      
-    
+        <div class="container container--center proj">
+            <h1 class="ques">How well do you know me?</h1>
+            <small class="small">November, 2020</small>
+            <p class="desc">It is a simple questionnaire written in Node.js programming language.
+                This is intended to calculate the degree of knowledge about you of your friends.</p>
+            <ul class="list list--proj">
+                <li class="list__inline"><a class="link link--primary trans"
+                        href="https://github.com/Akhil-Movva/CLI-App2">Try it</a></li>
+                <li class="list__inline"><a class="link link--primary trans"
+                        href="https://repl.it/@Akhil21/Assgmt2CLIquizApp-neogcamp-1#index.js">View source</a></li>
+            </ul>
+        </div>
+
+        <div class="container container--center proj">
+            <h1 class="ques">Test your IPL knowledge</h1>
+            <small class="small">November, 2020</small>
+            <p class="desc">This is a simple CLI application developed using Node.js.
+                Testing the knowledge of IPL-13 is the primary objective of building this application.</p>
+            <ul class="list list--proj">
+                <li class="list__inline"><a class="link link--primary trans"
+                        href="https://github.com/Akhil-Movva/CLI-App2">Try it</a></li>
+                <li class="list__inline"><a class="link link--primary trans"
+                        href="https://repl.it/@Akhil21/Assgmt2CLIquizApp-neogcamp-1#index.js">View source</a></li>
+            </ul>
+        </div>
+
+    </ul>
+
 </body>
+
 </html>
