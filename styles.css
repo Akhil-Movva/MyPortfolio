@@ -76,7 +76,7 @@ hr{
 .hero-header{
   padding: 2rem;
 }
-.hero-img{
+.projects-img, .hero-img{
   max-width: 500px;
   margin: auto;
   display: block; 
@@ -118,6 +118,10 @@ hr{
 .footer div{
   font-weight: bold;
   font-size: large;
+}
+
+.proj{
+  padding-bottom: 5rem;
 }
 
 
