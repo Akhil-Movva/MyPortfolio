@@ -2,8 +2,8 @@
 
 :root{
   --primary-color: #F97316;
-  --gray: #6B7280;
-  --off-white: #CBD5E1;
+   --dark-gray: #1F2937;
+  
 }
 
 body{
@@ -25,14 +25,23 @@ body{
 .link{
   text-decoration: none;
   padding: 0.5rem;
-  
-}
+  }
+
+  .link--center{
+    width: 121px;
+     margin: 0 auto;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
 
 .link--primary{
-  background-color: var(--primary-color);
-  color: white;
+  /*background-color: var(--dark-gray);*/
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
   border-radius: 0.5rem;
-
+  
 }
 .link--secondary{
   color: var(--primary-color);
@@ -56,12 +65,13 @@ hr{
   background-color: var(--primary-color);
   padding: 1rem;
   border-bottom-left-radius: 0.5rem;
-  color: white;
+  color: var(--dark-gray);
 }
 
 .navigation .link{
-  color: white;
+  color: var(--dark-gray);
 }
+
 
 .navigation__brand{
   font-weight: bold;
@@ -83,7 +93,7 @@ hr{
 }
 
 .hero-header h1{
-  color: var(--gray);
+  color: var(--dark-gray);
   padding-top: 1rem;
   text-align: center;
 
@@ -94,8 +104,8 @@ hr{
 }
 
 .section--gray{
-
-  background-color: var(--off-white);
+  background-color: var(--dark-gray);
+  color: var(--primary-color);
 }
 
 .section h1{
@@ -106,10 +116,10 @@ hr{
   background-color: var(--primary-color);
   padding: 2rem 0rem;
   text-align: center;
-  color: white;
+  color: var(--dark-gray);
 }
 .footer .link{
-  color: white;
+  color: var(--dark-gray);
 }
 .footer ul{
   padding-inline-start: 0px;
@@ -123,6 +133,11 @@ hr{
 .proj{
   padding-bottom: 5rem;
 }
+.section--proj{
+  background-color: var(--primary-color);
+  color: var(--dark-gray);
+}
+
 
 
 
