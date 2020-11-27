@@ -102,7 +102,7 @@ hr {
 }
 
 .projects-img,
-.hero-img {
+.hero-img, .blogs-img {
   width: 350px;
   max-width: 100%;
   margin: auto;
@@ -158,11 +158,16 @@ hr {
   color: var(--dark-gray);
 }
 
-.ques {
+.ques, .blog--title {
   color: var(--primary-color);
 }
 
 .desc,
 .small {
   color: var(--dark-gray);
+}
+
+.blog a{
+  padding: 0rem;
+  text-decoration: none;
 }
