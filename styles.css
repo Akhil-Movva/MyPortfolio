@@ -27,11 +27,6 @@ body {
   padding: 0.5rem;
 }
 
-.link--center {
-  width: 121px;
-  margin: 0 auto;
-}
-
 a:hover:not(.no-underline) {
   text-decoration: underline;
 }
@@ -170,6 +165,14 @@ hr {
 .blog-title, .teacher, .camp{
   color: var(--primary-color); 
   text-decoration: none;
+}
+
+
+.link--center{
+  display: table;
+  margin: 0 auto;
+  
+  
 }
 
 
