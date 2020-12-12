@@ -19,7 +19,7 @@ body {
 
 .container--center {
   width: 600px;
-  max-width: 100%;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -147,6 +147,7 @@ hr {
 
 .proj {
   padding-bottom: 1rem;
+  height: 220px;
 }
 
 .section--proj {
